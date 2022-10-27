@@ -1,17 +1,17 @@
-function add() {
-
+function add(numberOne, numberTwo) {
+    return numberOne + numberTwo;
 }
 
-function divide() {
-
+function divide(numberOne, numberTwo) {
+    return numberOne / numberTwo;
 }
 
-function multiply() {
-
+function multiply(numberOne, numberTwo) {
+    return numberOne * numberTwo;
 }
 
-function subtract() {
-
+function subtract(numberOne, numberTwo) {
+    return numberOne - numberTwo;
 }
 
 export {add, divide, multiply, subtract}
